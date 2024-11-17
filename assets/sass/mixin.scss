@@ -1,0 +1,72 @@
+@import "./variables";
+
+@mixin screen-max-width-991 {
+  @media (max-width: $max-width-991) {
+    @content;
+  }
+}
+
+
+@mixin screen-max-width-640 {
+  @media (max-width: $max-width-640) {
+    @content;
+  }
+}
+
+@mixin screen-max-width-767 {
+  @media (max-width: $max-width-767) {
+    @content;
+  }
+}
+
+@mixin screen-max-width-576 {
+  @media (max-width: $max-width-576) {
+    @content;
+  }
+}
+
+@mixin screen-max-width-1440 {
+  @media (max-width: $max-width-1440) {
+    @content;
+  }
+}
+@mixin screen-max-width-1215 {
+  @media (max-width: $max-width-1215) {
+    @content;
+  }
+}
+@mixin screen-max-width-375 {
+  @media (max-width: $max-width-375) {
+    @content;
+  }
+}
+
+@mixin adaptive-font($pcSize,$mobSize) {
+  $addSize: $pcSize - $mobSize;
+  $addMobSize: $addSize + $addSize * 0.7;
+  @media (max-width: 760px) {
+    font-size: calc(#{$mobSize + px} + #{$addMobSize} * ((100vw - 375px) / 1920 ));
+  }
+  @media (min-width: 760px) {
+    font-size: calc(#{$mobSize + px} + #{$addSize} * (100vw / 1920));
+  }
+}
+
+@mixin adaptive-value($property,$startSize,$minSize,$type) {
+  $addSize: $startSize - $minSize;
+  @if $type==1 {
+    #{$property}: $startSize + px;
+    @media (max-width: #{1590 + px }) {
+      #{$property} : calc(#{$minSize + px} + #{$addSize} * ((100vw - 375px) / #{1920}))
+    }
+  } @else if $type==2 {
+    #{$property}: $startSize + px;
+    @media (min-width: #{1590 + px}) {
+      #{$property} : calc(#{$minSize + px} + #{$addSize} * ((100vw - 375px) / #{1920}))
+
+    }
+  }@else {
+    #{$property} : calc(#{$minSize + px} + #{$addSize} * ((100vw - 375px) / #{1920}))
+
+  }
+}

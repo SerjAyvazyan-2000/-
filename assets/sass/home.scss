@@ -1,0 +1,53 @@
+@import "mixin";
+@import "variables";
+
+.home_section {
+  min-height: 766px;
+  display: flex;
+  align-items: center;
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  @include screen-max-width-991 {
+    background-position: right;
+    min-height: 666px;
+
+  }
+  @include screen-max-width-576{
+    min-height: 500px;
+    background-position-y: 20px;
+
+  }
+}
+
+
+.home_section_decor_1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+    img {
+      height: 100%;
+      object-fit: cover;
+  }
+}
+
+
+.home_body {
+  position: relative;
+  z-index: 2;
+}
+
+.home_title {
+  color: $white;
+  font-weight: 600;
+  max-width: 690px;
+  @include adaptive-font(54, 33);
+  @include adaptive-value('line-height', 64, 39, 1);
+  @include screen-max-width-375{
+    font-size: 26px;
+
+  }
+}

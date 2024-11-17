@@ -1,0 +1,45 @@
+<svg width="804.000000" height="766.000000" viewBox="0 0 804 766" fill="none" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+	<desc>
+			Created with Pixso.
+	</desc>
+	<defs>
+		<clipPath id="clip210_22">
+			<rect id="Ресурс 1 2" rx="-0.500000" width="765.000000" height="803.000000" transform="translate(0.500000 766.500000) rotate(-90.000000)" fill="white" fill-opacity="0"/>
+		</clipPath>
+		<linearGradient x1="262.031555" y1="452.724426" x2="262.031555" y2="-0.000000" id="paint_linear_210_25_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#A21F27"/>
+			<stop offset="1.000000" stop-color="#E2000B"/>
+		</linearGradient>
+		<linearGradient x1="17989.666016" y1="-13587.303711" x2="17989.666016" y2="-23195.464844" id="paint_linear_210_26_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#A21F27"/>
+			<stop offset="1.000000" stop-color="#E2000B"/>
+		</linearGradient>
+		<linearGradient x1="9028.904297" y1="-8329.714844" x2="9028.904297" y2="-10180.607422" id="paint_linear_210_27_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#A21F27"/>
+			<stop offset="1.000000" stop-color="#E2000B"/>
+		</linearGradient>
+		<linearGradient x1="28039.576172" y1="766.000000" x2="28039.576172" y2="-19325.914062" id="paint_linear_210_28_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#A21F27"/>
+			<stop offset="1.000000" stop-color="#E2000B"/>
+		</linearGradient>
+		<linearGradient x1="9028.905273" y1="766.000000" x2="9028.905273" y2="-1084.895386" id="paint_linear_210_29_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#A21F27"/>
+			<stop offset="1.000000" stop-color="#E2000B"/>
+		</linearGradient>
+		<linearGradient x1="21547.828125" y1="766.000000" x2="21547.828125" y2="-33621.511719" id="paint_linear_210_30_0" gradientUnits="userSpaceOnUse">
+			<stop stop-color="#A21F27"/>
+			<stop offset="1.000000" stop-color="#E2000B"/>
+		</linearGradient>
+	</defs>
+	<g opacity="0.200000">
+		<rect id="Ресурс 1 2" rx="-0.500000" width="765.000000" height="803.000000" transform="translate(0.500000 766.500000) rotate(-90.000000)" fill="#FFFFFF" fill-opacity="0"/>
+		<g clip-path="url(#clip210_22)">
+			<path id="Vector" d="M524.06 382.94L139.96 0L0 0L454.07 452.72L524.06 382.94Z" fill="url(#paint_linear_210_25_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M663.92 243.29L419.9 0L279.93 0L593.94 313.07L663.92 243.29Z" fill="url(#paint_linear_210_26_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M697.69 0L559.87 0L697.69 137.4L697.69 0Z" fill="url(#paint_linear_210_27_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M804 382.94L419.9 766L279.93 766L734.01 313.27L804 382.94Z" fill="url(#paint_linear_210_28_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M697.69 765.89L559.87 766L697.69 628.59L697.69 765.89Z" fill="url(#paint_linear_210_29_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+			<path id="Vector" d="M664.03 243.5L139.96 766L0 766L594.04 173.72L664.03 243.5Z" fill="url(#paint_linear_210_30_0)" fill-opacity="1.000000" fill-rule="nonzero"/>
+		</g>
+	</g>
+</svg>

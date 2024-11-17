@@ -1,0 +1,83 @@
+@import "mixin";
+@import "variables";
+
+
+.industry_solutions_body {
+  position: relative;
+}
+
+
+.industry_solutions_list {
+  display: flex;
+  flex-wrap: wrap;
+  @include adaptive-value('gap', 40, 20, 1);
+  @include adaptive-value('margin-top', 89, 40, 1);
+  position: relative;
+  z-index: 2;
+
+}
+
+.industry_solutions_item {
+  flex: 0 1 48.5%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 438px;
+  @include screen-max-width-991 {
+    flex: 0 1 100%;
+
+  }
+
+}
+
+.solutions_item_number {
+  color: rgb(223, 223, 223);
+  font-weight: 600;
+  line-height: 95px;
+  text-align: left;
+  @include adaptive-font(80, 40);
+  padding: 10px 27px;
+}
+
+.solutions_item_clue {
+  padding: 41px 0;
+  background: linear-gradient(64.11deg, rgb(15, 22, 31) 30.343%, rgba(15, 22, 31, 0) 97.111%);
+  color: rgb(255, 255, 255);
+  @include adaptive-font(26, 20);
+  font-weight: 500;
+  line-height: 31px;
+  text-align: center;
+}
+
+//Onother PAGE
+.logo_decors_container {
+  max-width: 1500px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.project_logo_decors {
+  padding: 16px 0;
+}
+
+.project_logo_decors_body {
+  position: relative;
+
+}
+
+.industry_solutions_decor {
+  position: absolute;
+  left: 0;
+  bottom: 80px;
+  @include screen-max-width-1440 {
+    left: -20px;
+  }
+}
+
+.industry_solutions_title {
+  color: rgb(50, 50, 50);
+  font-weight: 600;
+  text-align: left;
+  @include adaptive-font(48,26)
+}
